@@ -78,7 +78,7 @@ npm run dev
 ```bash
 curl -X POST http://localhost:8000/api/scans \
   -H "Content-Type: application/json" \
-  -d "{\"content\":\"api_key='prod_live_ci_token_9f2b7c4a6d8e1f0a2b3c4d5e'\\npassword='ProdRootPass2026!'\",\"source_name\":\"deployment.env\"}"
+  -d "{\"content\":\"api_key='EXAMPLE_API_KEY_VALUE'\\npassword='EXAMPLE_PASSWORD_VALUE'\",\"source_name\":\"deployment.env\"}"
 ```
 
 ## Sample Files
